@@ -1,0 +1,55 @@
+/* responsive */
+@media (max-width: 1023px){
+.navbar .links,
+.navbar .action-btn {
+    display: none;
+}
+
+.dropdown_menu {
+    /* display: block; */
+}
+
+.navbar .toggle-btn {
+    display: block;
+}
+
+}
+
+@media (max-width: 738px) {
+.navbar .logo{
+   display: none;
+}
+
+.e_btn {
+    flex: 1;
+}
+
+.cart-user {
+    margin: 0 8px;
+}
+
+.btn {
+   margin:0 12px;
+}
+
+.btn__container .search {
+    flex: 1;
+}
+
+.banner__heading {
+    text-align: initial;
+    margin: 0;
+    padding-top: 0;
+}
+
+.banner__img {
+    width: 60%;
+}
+
+}
+
+@media (max-width: 420px) {
+    .cart-user {
+        display: none !important;
+    }
+}
